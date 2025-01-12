@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to My Page</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home page </a></li>
+
+        <li><a href="color.html">Css color names </a></li>
+        <li><a href="Rgba.html">CSS RGB Colors</a></li>
+        <li><a href="Hex.html">CSS HEX Colors</a></li>
+        <li><a href="HSLA.html">HSLA Value</a></li>
+      </ul>
+    </nav>
+  </header>
+    <h1>CSS HSL Colors</h1>
+
+  <p>HSL stands for hue, saturation, and lightness.</p>
+  <h1>HSL Value</h1>
+  <p>In CSS, a color can be specified using hue, saturation, and lightness (HSL) in the form:<br>
+  hsl(hue, saturation, lightness)<br>Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.<br>Saturation is a percentage value. 0% means a shade of gray, and 100% is the full color.<br>Lightness is also a percentage. 0% is black, 50% is neither light or dark, 100% is white<br>Experiment by mixing the HSL values below:</p>
+  <div class="color-mixer">
+  <div class="color-n">
+     hsla(235, 15%, 31%, 1)
+    
+  </div>
+  </div>
+  <div class="grid">
+        <div class="box red">hsl(0, 100%, 50%)</div>
+        <div class="box blue">hsl(240, 100%, 50%)</div>
+        <div class="box green">hsl(147, 50%, 47%)</div>
+        <div class="box pink">hsl(300, 76%, 72%)</div>
+        <div class="box v">hsl(39, 100%, 50%)</div>
+        <div class="box purple">hsl(248, 53%, 58%)</div>
+    </div>
+</div>
+<h1>Saturation</h1>
+<p>Saturation can be described as the intensity of a color.<br>100% is pure color, no shades of gray.
+<br>50% is 50% gray, but you can still see the color.<br>0% is completely gray; you can no longer see the color.</p>
+
+  <div class="grid">
+    <div class="box hsl-100">hsl(0, 100%, 50%)</div>
+    <div class="box hsl-80">hsl(0, 80%, 50%)</div>
+    <div class="box hsl-60">hsl(0, 60%, 50%)</div>
+    <div class="box hsl-40">hsl(0, 40%, 50%)</div>
+    <div class="box hsl-20">hsl(0, 20%, 50%)</div>
+    <div class="box hsl-0">hsl(0, 0%, 50%)</div>
+  </div>
+  <h1>Lightness</h1>
+  <p>The lightness of a color can be described as how much light you want to give the color, where 0% means no light (black), 50% means 50% light (neither dark nor light) and 100% means full lightness (white).</p>
+  <h1>Example</h1>
+      <div class="grid">
+      <div class="box blak">hsl(0, 100%, 0%)</div>
+      <div class="box dark-red">hsl(0, 100%, 25%)</div>
+      <div class="box red">hsl(0, 100%, 50%)</div>
+      <div class="box light-red">hsl(0, 100%, 75%)</div>
+   <div class="box very">hsl(0, 100%, 50%)</div>
+      <div class="box white">hsl(0, 100%, 100%)</div>
+    </div>
+    <h1>Shades of Gray</h1>
+    <p>Shades of gray are often defined by setting the hue and saturation to 0, and adjust the lightness from 0% to 100% to get darker/lighter shades:</p>
+  <div class="grid">
+  <div class="box block-1">hsl(0, 0%, 0%)</div>
+  <div class="box block-2">hsl(0, 0%, 24%)</div>
+  <div class="box block-3">hsl(0, 0%, 47%)</div>
+  <div class="box block-4">hsl(0, 0%, 71%)</div>
+  <div class="box block-5">hsl(0, 0%, 94%)</div>
+  <div class="box block-6">hsl(0, 0%, 100%)</div>
+  
+</div>
+<h1>HSLA Value</h1>
+<p>HSLA color values are an extension of HSL color values with an alpha channel - which specifies the opacity for a color.<br>An HSLA color value is specified with:</p>
+<h2>hsla(hue, saturation, lightness, alpha)</h2>
+<p>The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all):<br>Experiment by mixing the HSLA values below:</p>
+  <div class="color-mixer">
+    <div class="color-x">
+   hsla(352, 62%, 49%, 0.65)
+    </div>
+  </div>
+  <h1>Exmple</h1>
+  <div class="ml">
+  <div class="box opacity-0">hsla(9, 100%, 64%, 0)</div>
+  <div class="box opacity-02">hsla(9, 100%, 64%, 0.2)</div>
+  <div class="box opacity-04">hsla(9, 100%, 64%, 0.4)</div>
+  <div class="box opacity-06">hsla(9, 100%, 64%, 0.6)</div>
+  <div class="box opacity-08">hsla(9, 100%, 64%, 0.8)</div>
+  <div class="box opacity-1">hsla(9, 100%, 64%, 1)</div>
+</div>
+  <footer>
+    <p>&copy; 2025 My Page All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
